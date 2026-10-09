@@ -1,0 +1,52 @@
+# Compiled Java class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directories and outputs
+build/
+dist/
+target/
+build_cli/
+bin/
+**/dist/
+**/build/
+**/target/
+**/build_cli/
+
+# Heavy database dumps and molecular dataset files
+*.sd
+*.sd.gz
+*.sdf.gz
+*.sql.gz
+*.sql.tar.gz
+*.sql.zip
+nmrshiftdb2-data*.sql
+nmrshiftdb2withsignals.sd
+**/snapshots/*.sd
+**/snapshots/*.sql.gz
+
+# IDE and Editor configurations
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+nmrshiftdb2-data-1_4_14.sql
+nmrshiftdb2-code/snapshots/nmrshiftdb2_3d.xml
+nmrshiftdb2-code/snapshots/nmrshiftdb2.xml
